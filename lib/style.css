@@ -1,0 +1,41 @@
+/* Container for the slider */
+.slider-container {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  background-color: #e0e0e0;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* The sliding button */
+.slider-button {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #00bfff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* Lock icon inside the button */
+.lock-icon {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  color: white;
+  font-size: 24px;
+}
+
+/* Text inside the container */
+.unlock-text {
+  position: absolute;
+  left: 80px; /* Align text to the left of the slider */
+  color: #aaa;
+  font-size: 18px;
+}
+
+/* Add your styles here */
+
